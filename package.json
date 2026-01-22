@@ -1,9 +1,7 @@
 {
-  "name": "motion-control-video-app",
-  "version": "1.0.0",
+  "name": "rellikizan",  "version": "1.0.0",
   "description": "A motion control video generator app inspired by Higgsfield AI - transfer motion from reference videos to character images",
-  "main": "server/index.js",
-  "scripts": {
+  "description": "Rellikizan - A motion control video generator app inspired by Higgsfield AI - transfer motion from reference videos to character images",  "scripts": {
     "start": "node server/index.js",
     "dev": "nodemon server/index.js",
     "client": "cd client && npm start",
