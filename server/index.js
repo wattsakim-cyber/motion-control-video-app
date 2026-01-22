@@ -21,6 +21,7 @@ const jobs = new Map();
 app.use(cors());
 app.use(express.json());
 app.use('/uploads', express.static('uploads'));
+app.use(express.static('public'));
 
 // Configure multer for file uploads
 const storage = multer.diskStorage({
